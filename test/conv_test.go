@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func TestBytesToString(t *testing.T) {

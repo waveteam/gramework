@@ -10,7 +10,7 @@
 package client
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 // Handler returns gramework handler

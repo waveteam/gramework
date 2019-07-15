@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 	"github.com/gramework/runtimer"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

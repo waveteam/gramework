@@ -1,6 +1,6 @@
 package graphiql
 
-import "github.com/gramework/gramework"
+import "github.com/waveteam/gramework"
 
 const (
 	// PackageVersion defines graphiql package version

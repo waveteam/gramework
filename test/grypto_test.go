@@ -12,7 +12,7 @@ package test
 import (
 	"testing"
 
-	"github.com/gramework/gramework/grypto"
+	"github.com/waveteam/gramework/grypto"
 	"github.com/gramework/utils/grand"
 	"golang.org/x/crypto/bcrypt"
 )

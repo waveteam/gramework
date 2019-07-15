@@ -12,7 +12,7 @@ package client
 import (
 	"net/url"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func (client *Instance) nextServer() (*requestInfo, error) {

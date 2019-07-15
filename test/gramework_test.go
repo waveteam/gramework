@@ -17,7 +17,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func TestGrameworkHTTP(t *testing.T) {

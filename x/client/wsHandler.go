@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/fasthttp-contrib/websocket"
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 // WSHandler returns gramework handler

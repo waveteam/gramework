@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/gramework/gramework"
-	"github.com/gramework/gramework/infrastructure"
+	"github.com/waveteam/gramework"
+	"github.com/waveteam/gramework/infrastructure"
 )
 
 func TestServeInfrastructure(t *testing.T) {

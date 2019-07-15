@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func TestDomainShouldNeverReturnNil(t *testing.T) {

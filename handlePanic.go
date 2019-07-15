@@ -129,5 +129,5 @@ a {
 `
 
 const poweredBy = `<div class="poweredBy">
-	<p>Powered by <a target=_blank href="https://github.com/gramework/gramework">Gramework</a>.</p>
+	<p>Powered by <a target=_blank href="https://github.com/waveteam/gramework">Gramework</a>.</p>
 </div>`

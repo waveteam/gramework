@@ -1,10 +1,10 @@
-# gramework  [![codecov](https://codecov.io/gh/gramework/gramework/branch/master/graph/badge.svg)](https://codecov.io/gh/gramework/gramework) [![Build Status](https://travis-ci.org/gramework/gramework.svg?branch=master)](https://travis-ci.org/gramework/gramework) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1203/badge)](https://bestpractices.coreinfrastructure.org/projects/1203) [![Backers on Open Collective](https://opencollective.com/gramework/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/gramework/sponsors/badge.svg)](#sponsors) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgramework%2Fgramework.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgramework%2Fgramework?ref=badge_shield)
+# gramework  [![codecov](https://codecov.io/gh/waveteam/gramework/branch/master/graph/badge.svg)](https://codecov.io/gh/waveteam/gramework) [![Build Status](https://travis-ci.org/waveteam/gramework.svg?branch=master)](https://travis-ci.org/waveteam/gramework) [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1203/badge)](https://bestpractices.coreinfrastructure.org/projects/1203) [![Backers on Open Collective](https://opencollective.com/gramework/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/gramework/sponsors/badge.svg)](#sponsors) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgramework%2Fgramework.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgramework%2Fgramework?ref=badge_shield)
 
 The Good Framework
 
 [![Gramework Stats Screenshot](https://10357-5.s.cdn13.com/docs/gramework_stats_screenshot.png)](https://grafana.com/dashboards/3422)
 
-_Gramework long-term testing stand metrics screenshot made with [Gramework Stats Dashboard](https://grafana.com/dashboards/3422) and [metrics middleware](https://github.com/gramework/gramework/tree/dev/metrics)_
+_Gramework long-term testing stand metrics screenshot made with [Gramework Stats Dashboard](https://grafana.com/dashboards/3422) and [metrics middleware](https://github.com/waveteam/gramework/tree/dev/metrics)_
 
 ### What is it?
 Fast, highly effective, reliable SPA-first go-way web framework made by fasthttp maintainer. You get the simple yet powerful API, we handle optimizations internally.
@@ -35,18 +35,18 @@ If you find it, you can submit vulnerability via k@gramework.win.
 
 | Name  | Link/Badge  	|
 |---	|---		|
-| Docs  | [GoDoc](https://godoc.org/github.com/gramework/gramework) |
+| Docs  | [GoDoc](https://godoc.org/github.com/waveteam/gramework) |
 | Our Jira | [Jira](https://gramework.atlassian.net) |
-| License Report | [Report](https://github.com/gramework/gramework/tree/dev/third_party_licenses/REPORT.md) |
-| Changelog | [Changelog](https://github.com/gramework/gramework/tree/dev/docs/CHANGELOG.md) |
+| License Report | [Report](https://github.com/waveteam/gramework/tree/dev/third_party_licenses/REPORT.md) |
+| Changelog | [Changelog](https://github.com/waveteam/gramework/tree/dev/docs/CHANGELOG.md) |
 | Support us with a donation or become a sponsor | [OpenCollective](https://opencollective.com/gramework) |
 | Our Telegram chat | [@gramework](https://t.me/gramework) |
 | We have #gramework channel in the Gophers Slack | https://gophers.slack.com |
 | Our Discord Server | https://discord.gg/HkW8DsD |
-| Master branch coverage | [![codecov](https://codecov.io/gh/gramework/gramework/branch/master/graph/badge.svg)](https://codecov.io/gh/gramework/gramework) |
-| Master branch status | [![Build Status](https://travis-ci.org/gramework/gramework.svg?branch=master)](https://travis-ci.org/gramework/gramework) |
-| Dev branch coverage | [![codecov](https://codecov.io/gh/gramework/gramework/branch/dev/graph/badge.svg)](https://codecov.io/gh/gramework/gramework) |
-| Dev branch status | [![Build Status](https://travis-ci.org/gramework/gramework.svg?branch=dev)](https://travis-ci.org/gramework/gramework) |
+| Master branch coverage | [![codecov](https://codecov.io/gh/waveteam/gramework/branch/master/graph/badge.svg)](https://codecov.io/gh/waveteam/gramework) |
+| Master branch status | [![Build Status](https://travis-ci.org/waveteam/gramework.svg?branch=master)](https://travis-ci.org/waveteam/gramework) |
+| Dev branch coverage | [![codecov](https://codecov.io/gh/waveteam/gramework/branch/dev/graph/badge.svg)](https://codecov.io/gh/waveteam/gramework) |
+| Dev branch status | [![Build Status](https://travis-ci.org/waveteam/gramework.svg?branch=dev)](https://travis-ci.org/waveteam/gramework) |
 | CII Best Practices | [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1203/badge)](https://bestpractices.coreinfrastructure.org/projects/1203) |
 | Gramework Stats Dashboard for Grafana | https://grafana.com/dashboards/3422 |
 
@@ -106,7 +106,7 @@ The example below will serve "hello, grameworld". Gramework will register flag "
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func main() {
@@ -131,7 +131,7 @@ The example below will serve `{"hello":"grameworld"}` from the map. Gramework wi
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func main() {
@@ -156,7 +156,7 @@ The example below will serve `{"hello":"grameworld"}` from the struct. Gramework
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 type SomeResponse struct {
@@ -183,7 +183,7 @@ The example below will serve static files from ./files:
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func main() {
@@ -202,7 +202,7 @@ The example below will serve byte slice:
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func main() {
@@ -221,7 +221,7 @@ This example show you some ways to send response, how to use preconfigured logge
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 type SomeData struct {
@@ -297,7 +297,7 @@ without rewriting all your handlers.
 package main
 
 import (
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func main() {

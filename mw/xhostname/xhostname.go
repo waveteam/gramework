@@ -11,7 +11,7 @@ package xhostname
 import (
 	"os"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 const (

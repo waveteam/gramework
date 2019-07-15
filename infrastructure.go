@@ -12,7 +12,7 @@ package gramework
 import (
 	"time"
 
-	"github.com/gramework/gramework/infrastructure"
+	"github.com/waveteam/gramework/infrastructure"
 )
 
 // ServeInfrastructure serves Infrastructure info

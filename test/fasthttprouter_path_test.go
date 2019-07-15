@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 var cleanTests = []struct {

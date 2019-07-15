@@ -3,7 +3,7 @@ package gqlhandler
 import (
 	"strings"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 	graphql "github.com/graph-gophers/graphql-go"
 	"github.com/pkg/errors"
 )

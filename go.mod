@@ -1,8 +1,9 @@
-module github.com/gramework/gramework
+module github.com/waveteam/gramework
 
 require (
 	github.com/apex/log v1.0.0
 	github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973 // indirect
+	github.com/cloudfoundry/gosigar v1.1.0
 	github.com/fasthttp-contrib/websocket v0.0.0-20160511215533-1f3b11f56072
 	github.com/gocarina/gocsv v0.0.0-20180809181117-b8c38cb1ba36
 	github.com/golang/protobuf v1.2.0 // indirect
@@ -27,6 +28,7 @@ require (
 	github.com/xenolf/lego v0.3.2-0.20170618175828-28ead50ff1ca // indirect
 	golang.org/x/crypto v0.0.0-20180830192347-182538f80094
 	golang.org/x/net v0.0.0-20180826012351-8a410e7b638d // indirect
+	golang.org/x/sys v0.0.0-20190712062909-fae7ac547cb7 // indirect
 	golang.org/x/time v0.0.0-20180412165947-fbb02b2291d2 // indirect
 	gopkg.in/square/go-jose.v1 v1.1.2 // indirect
 )

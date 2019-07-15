@@ -3,7 +3,7 @@ package pprof
 import (
 	"net/http/pprof"
 
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 var (

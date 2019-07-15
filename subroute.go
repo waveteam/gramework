@@ -143,7 +143,7 @@ func (r *SubRouter) HTTP() *SubRouter {
 		}
 	default:
 		Errorf("[HIGH SEVERITY BUG]: unreachable case found! Expected *SubRouter or *Router, got %T! Returning nil!", parent)
-		Errorf("Please report the bug on https://github.com/gramework/gramework ASAP!")
+		Errorf("Please report the bug on https://github.com/waveteam/gramework ASAP!")
 		return nil
 	}
 }
@@ -160,7 +160,7 @@ func (r *SubRouter) HTTPS() *SubRouter {
 		}
 	default:
 		Errorf("[HIGH SEVERITY BUG]: unreachable case found! Expected *SubRouter or *Router, got %T! Returning nil!", parent)
-		Errorf("Please report the bug on https://github.com/gramework/gramework ASAP!")
+		Errorf("Please report the bug on https://github.com/waveteam/gramework ASAP!")
 		return nil
 	}
 }

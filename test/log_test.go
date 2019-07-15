@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/apex/log"
-	"github.com/gramework/gramework"
+	"github.com/waveteam/gramework"
 )
 
 func TestLogErrorfShouldNotPanic(t *testing.T) {

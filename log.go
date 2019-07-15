@@ -19,7 +19,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-var enableDebug = true
+var enableDebug = false
 
 var currentEnvironment *int32
 
@@ -106,7 +106,7 @@ type FastHTTPLoggerAdapter struct {
 
 // Logger handles default logger
 var Logger = &log.Logger{
-	Level:   log.InfoLevel,
+	Level:   log.ErrorLevel,
 	Handler: cli.New(os.Stdout),
 }
 
@@ -129,10 +129,8 @@ func (l *FastHTTPLoggerAdapter) Printf(msg string, v ...interface{}) {
 }
 
 var internalLog = func() *log.Entry {
-	Logger.Level = log.DebugLevel
-	if !enableDebug {
-		Logger.Level = log.InfoLevel
+	if enableDebug {
+		Logger.Level = log.DebugLevel
 	}
-
 	return Logger.WithField("package", "gramework")
 }()
